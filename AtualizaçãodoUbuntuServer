@@ -1,0 +1,32 @@
+#Abrir o Ubuntu Server#
+fazer login
+
+#Para verificar se o serviço esta funcionando#
+ping 8.8.8.8
+ping google.com
+
+Para atualizar
+	sudo apt update
+
+#Verificando pacotes á serem atuzalizados#
+
+"List" para listar sofwares para atualização
+sudo apt list --upgradable
+
+Para atualizar todos os pacotes do sistema
+sudo apt upgrade
+	yes
+Apertar tecla tab depois ok
+
+ Para forçar as atualizaçoes
+sudo apt full-upgrade
+	sudo apt dist-upgrade
+
+Remove todos softwares desnecessários
+sudo apt autoremove
+
+limpeza do cache
+sudo apt autoclean
+
+sudo reboot
+
